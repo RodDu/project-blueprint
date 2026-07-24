@@ -1,0 +1,141 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-07-23",
+  "skills": [
+    {
+      "name": "ponytail",
+      "description": "Anti over-engineering guard — enforces simplicity and minimal viable solutions",
+      "source": "https://github.com/seangeng/skills",
+      "path_in_repo": "ponytail",
+      "categories": ["meta", "quality"],
+      "recommended_for": ["python", "javascript", "frontend", "backend"],
+      "license": "MIT"
+    },
+    {
+      "name": "boil-the-ocean",
+      "description": "Completeness enforcement — ensures no corner cases or edge paths are skipped",
+      "source": "https://github.com/seangeng/skills",
+      "path_in_repo": "boil-the-ocean",
+      "categories": ["meta", "quality"],
+      "recommended_for": ["python", "backend", "testing"],
+      "license": "MIT"
+    },
+    {
+      "name": "plan-optimizer",
+      "description": "Iterative plan improvement through structured critique and refinement loops",
+      "source": "https://github.com/seangeng/skills",
+      "path_in_repo": "plan-optimizer",
+      "categories": ["meta", "quality"],
+      "recommended_for": ["python", "backend", "frontend"],
+      "license": "MIT"
+    },
+    {
+      "name": "write-like-a-human",
+      "description": "Natural prose enforcement — eliminates robotic phrasing and filler words",
+      "source": "https://github.com/seangeng/skills",
+      "path_in_repo": "write-like-a-human",
+      "categories": ["meta", "docs"],
+      "recommended_for": ["python", "javascript", "frontend"],
+      "license": "MIT"
+    },
+    {
+      "name": "managing-python-dependencies",
+      "description": "Guides venv creation, pip installs, and requirements.txt management",
+      "source": "builtin",
+      "path_in_repo": "",
+      "categories": ["python", "devops"],
+      "recommended_for": ["python"],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "building-data-apps",
+      "description": "Framework for building dashboards and data applications with Streamlit/Gradio",
+      "source": "builtin",
+      "path_in_repo": "",
+      "categories": ["data", "frontend", "python"],
+      "recommended_for": ["python", "data", "ml"],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "ml-best-practices",
+      "description": "ML workflow guide covering data prep, training, evaluation, and deployment",
+      "source": "builtin",
+      "path_in_repo": "",
+      "categories": ["ml", "python", "data"],
+      "recommended_for": ["python", "ml", "data"],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "technology-analyzer",
+      "description": "Analyzes repositories and tools for tech stack, architecture, and dependencies",
+      "source": "local",
+      "path_in_repo": "",
+      "categories": ["meta", "devops"],
+      "recommended_for": ["python", "javascript", "backend"],
+      "license": "MIT"
+    },
+    {
+      "name": "redesign-existing-projects",
+      "description": "UI upgrade audit — evaluates and modernizes existing frontend interfaces",
+      "source": "local",
+      "path_in_repo": "",
+      "categories": ["frontend", "design", "quality"],
+      "recommended_for": ["frontend", "javascript"],
+      "license": "MIT"
+    },
+    {
+      "name": "high-end-visual-design",
+      "description": "Premium UI patterns — enforces polished layouts, spacing, and visual hierarchy",
+      "source": "local",
+      "path_in_repo": "",
+      "categories": ["frontend", "design"],
+      "recommended_for": ["frontend", "javascript"],
+      "license": "MIT"
+    },
+    {
+      "name": "ponytail-review",
+      "description": "Code review lens that flags over-engineering, unnecessary abstractions, and bloat",
+      "source": "https://github.com/seangeng/skills",
+      "path_in_repo": "ponytail-review",
+      "categories": ["meta", "quality", "testing"],
+      "recommended_for": ["python", "javascript", "backend"],
+      "license": "MIT"
+    },
+    {
+      "name": "ponytail-audit",
+      "description": "Whole-repo bloat audit — scans for dead code, over-abstraction, and complexity",
+      "source": "https://github.com/seangeng/skills",
+      "path_in_repo": "ponytail-audit",
+      "categories": ["meta", "quality"],
+      "recommended_for": ["python", "javascript", "backend", "frontend"],
+      "license": "MIT"
+    },
+    {
+      "name": "defuddle",
+      "description": "Web page text extraction — strips clutter and returns clean readable content",
+      "source": "https://github.com/seangeng/skills",
+      "path_in_repo": "defuddle",
+      "categories": ["data", "backend"],
+      "recommended_for": ["python", "javascript"],
+      "license": "MIT"
+    },
+    {
+      "name": "block-disposable-emails",
+      "description": "Email validation — detects and blocks disposable/temporary email addresses",
+      "source": "https://github.com/seangeng/skills",
+      "path_in_repo": "block-disposable-emails",
+      "categories": ["security", "backend"],
+      "recommended_for": ["python", "javascript", "backend"],
+      "license": "MIT"
+    },
+    {
+      "name": "image-to-code",
+      "description": "Design-to-implementation — converts screenshots and mockups into working code",
+      "source": "local",
+      "path_in_repo": "",
+      "categories": ["frontend", "design"],
+      "recommended_for": ["frontend", "javascript"],
+      "license": "MIT"
+    }
+  ]
+}
