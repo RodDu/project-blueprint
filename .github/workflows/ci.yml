@@ -56,25 +56,3 @@ jobs:
               "MD041": false,
               "MD051": false
             }
-            
-lint-markdown:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Check Markdown links and syntax
-        uses: DavidAnson/markdownlint-cli2-action@v16
-        with:
-          globs: "**/*.md"
-          # Desliga a verificação de tamanho de linha (MD013),
-          # o uso de tags HTML (MD033) e pular linha após cabeçalhos (MD022/MD032)
-          config: |
-            {
-              "MD013": false,
-              "MD033": false,
-              "MD022": false,
-              "MD032": false,
-              "MD031": false,
-              "MD040": false,
-              "MD041": false
-            }
- 
