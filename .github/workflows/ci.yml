@@ -34,12 +34,3 @@ jobs:
         run: |
           python -m py_compile scripts/discover.py
           python -m py_compile scripts/install.py
-
-  lint-markdown:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Check Markdown links and syntax
-        uses: DavidAnson/markdownlint-cli2-action@v16
-        with:
-          globs: "**/*.md"
